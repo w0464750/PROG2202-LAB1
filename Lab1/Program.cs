@@ -10,9 +10,11 @@ namespace Lab1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, what's your name?: ");
-            string firstName = Console.ReadLine();
-            Console.WriteLine("Hello " + firstName);
+            Console.WriteLine("Welcome to the addition calculator.\nInput your first number: ");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Input your second number: ");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(num1 + num2);
             Console.ReadLine();
         }
     }
