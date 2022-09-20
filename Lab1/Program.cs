@@ -10,7 +10,8 @@ namespace Lab1
     {
         static void Main(string[] args)
         {
-            string firstName = "Jax";
+            Console.WriteLine("Hello, what's your name?: ");
+            string firstName = Console.ReadLine();
             Console.WriteLine("Hello " + firstName);
             Console.ReadLine();
         }
